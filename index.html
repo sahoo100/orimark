@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="Description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="Keywords" content="" />
+	<title>Orimark Properties</title>
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/bootstrap/bootstrap.js"></script>
+	
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen"/>
+	<link href="css/layout.css" rel="stylesheet" media="screen"/>
+	<script src="js/bootstrap/html5shiv.js"></script>
+	<script src="js/bootstrap/css3-mediaqueries.js"></script>
+	<script src="js/bootstrap/respond.min.js"></script>
+</head>
+<body>
+<div class="container">
+<header class="header">
+<div class="row">
+<div class="col-lg-4 fl_lft">
+	<img src="images/logo.png" class="fl_lft" /></div>
+  <div class="col-lg-5 fl_rht">
+    	<div class="hm_login">
+    		<span>New User</span> <span> <a href="#">Register Now</a> </span>  |  <span class="sign">
+			<a href="javascript:void(0)">Sign In</a></span>    	
+		</div>
+		<i class="clear"></i>
+    	<ul class="cal_us">
+        	<li class="phone">+91 - 98616 54555</li>
+            <li class="mail"><a href="mailto:info@orimark.com">info@orimark.com</a></li>
+         </ul>
+		 <div class="signin col-lg-7">
+			<span class="clear"></span>
+			<input type="text" name="sign_username" value="Username" />
+			<input type="password" name="sign_password" value="password" />
+			<input type="button" value="Login" />
+		 </div>
+  </div>
+</div>
+</header>
+
+<!-- header end -->
+<!-- social icon -->
+<div class="social_icon">
+	<ul>
+    	<li class="fb"><a href="#"><span>Facebook</span></a></li>
+        <li class="flk"><a href="#"><span>Flickr</span></a></li>
+        <li class="tw"><a href="#"><span>Twitter</span></a></li>
+        <li class="gle"><a href="#"><span>google</span></a></li>
+        <li class="del"><a href="#"><span>Delicious</span></a></li>
+    </ul>  
+</div>
+<!-- social icon -->
+<!-- menu -->
+<i class="clear"></i>
+<div class="row">
+ <div class="navbar-wrapper">
+      <div class="container">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+    	      <span class="icon-bar"></span>
+    	      <span class="icon-bar"></span>
+    	      <span class="icon-bar"></span>    	
+			<i class="clear"></i>
+		</button>
+        <div class="navbar navbar-inverse navbar-static-top">
+            <div class="nav-collapse collapse">
+              <nav class="nav">
+				<ul>
+					<li><a href="#">Residential</a></li>
+					<li><a href="#">Commercial</a></li>
+					<li><a href="#">Affordable</a></li>
+					<li><a href="#">Land</a></li>
+					<li><a href="#">Resale</a></li>
+					<li><a href="#">Rent</a></li>
+					<li><a href="#">Corporate</a></li>
+					<li><a href="#">Event</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+				<input type="button" class="add_cart" value="Save List" />
+				<i class="clear"></i>
+			  </nav>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="content">   
+	<!-- search -->
+	<div class="search_text">
+    	<h2>Search Properties With Orissa No1 Site</h2>
+        <h3>Find More than 1000 Builders, 5000 Land, 6000 Residential &amp; Commercial..</h3>
+    </div>
+
+    <div class="search_blk">
+    	<div class="searchfrm col-lg-7">
+        	<nav>
+            	<ul class="search_tab">
+                	<li class="active"><a href="#residental"><span class="resi"></span>Residential</a><i></i></li>
+                    <li><a href="#commercial"><span class="comm"></span>Commercial</a><i></i></li>
+                    <li><a href="#land"><span class="land"></span>Land</a><i></i></li>
+                    <li><a href="#resale"><span class="resl"></span>Resale</a><i></i></li>
+                </ul>
+            </nav>
+            <i class="clear"></i>
+			<div class="tab-content">
+			<div id="residental" class="tab-pane active"> <!-- residental -->
+            <form>
+            <ul class="serchflid">
+            	<li>
+                	<span><input type="text" value="Enter your keyword / Project ID" class="search_fld" /></span>
+                	<em>I want To : <input type="radio" /> Buy	 <input type="radio" />Rent	</em>
+                    <i class="clear"></i>                </li>
+                <li>
+                	<span>
+                    	<select>
+                        	<option>Select Land / Apartment / etc</option>
+                            <option>--</option>
+                        </select>
+                    </span>
+                	<em>
+                    	<select>
+                        	<option>2BHK/ 3BHK/ (2000sq/ 3000sq)</option>
+                        </select>
+                    </em>                </li>
+                <li>
+                	<span>
+                    	<select>
+                        	<option>Select Your City</option>
+                        </select>
+                    </span>
+                	<em>
+                    	<select>
+                        	<option>Select Locality  As Per City</option>
+                        </select>
+                    </em>                </li>
+                 <li>
+                	<span class="mx_min">
+                    	<select class="fl_lft">
+                        	<option>Min Price</option> 
+                        </select>
+                        <b class="padd_5">To</b>
+                        <select class="fl_rht">
+                        	<option>Max Price</option>
+                        </select>
+                    </span>
+                	<em>
+                    	<select>
+                        	<option>Posted by</option>
+                        </select>
+                    </em>                </li>
+            </ul>
+            <i class="clear"></i>
+            <input type="button" class="serch_btn" value="Search" />
+            </form>
+			</div>
+			<div id="commercial" class="tab-pane"> <!-- commercial -->
+            <form>
+            <ul class="serchflid">
+            	<li>
+                	<span><input type="text" value="Enter your keyword / Project ID" class="search_fld" /></span>
+                	<em>I want To : <input type="radio" /> Buy	 <input type="radio" />Rent	</em>
+                    <i class="clear"></i>                </li>
+                <li>
+                	<span>
+                    	<select>
+                        	<option>Select Land / Apartment / etc</option>
+                            <option>--</option>
+                        </select>
+                    </span>
+                	<em>
+                    	<select>
+                        	<option>2BHK/ 3BHK/ (2000sq/ 3000sq)</option>
+                        </select>
+                    </em>                </li>
+                <li>
+                	<span>
+                    	<select>
+                        	<option>Select Your City</option>
+                        </select>
+                    </span>
+                	<em>
+                    	<select>
+                        	<option>Select Locality  As Per City</option>
+                        </select>
+                    </em>                </li>
+                 <li>
+                	<span class="mx_min">
+                    	<select class="fl_lft">
+                        	<option>Min Price</option> 
+                        </select>
+                        <b class="padd_5">To</b>
+                        <select class="fl_rht">
+                        	<option>Max Price</option>
+                        </select>
+                    </span>
+                	<em>
+                    	<select>
+                        	<option>Posted by</option>
+                        </select>
+                    </em>                </li>
+            </ul>
+            <i class="clear"></i>
+            <input type="button" class="serch_btn" value="Search" />
+            </form>
+			</div>
+			<div id="land" class="tab-pane"><!-- land search -->
+            <form>
+            <ul class="serchflid">
+            	<li>
+                	<span><input type="text" value="Enter your keyword / Project ID" class="search_fld" /></span>
+                	<em>I want To : <input type="radio" /> Buy	 <input type="radio" />Rent	</em>
+                    <i class="clear"></i>                </li>
+                <li>
+                	<span>
+                    	<select>
+                        	<option>Select Land / Apartment / etc</option>
+                            <option>--</option>
+                        </select>
+                    </span>
+                	<em>
+                    	<select>
+                        	<option>2BHK/ 3BHK/ (2000sq/ 3000sq)</option>
+                        </select>
+                    </em>                </li>
+                <li>
+                	<span>
+                    	<select>
+                        	<option>Select Your City</option>
+                        </select>
+                    </span>
+                	<em>
+                    	<select>
+                        	<option>Select Locality  As Per City</option>
+                        </select>
+                    </em>                </li>
+                 <li>
+                	<span class="mx_min">
+                    	<select class="fl_lft">
+                        	<option>Min Price</option> 
+                        </select>
+                        <b class="padd_5">To</b>
+                        <select class="fl_rht">
+                        	<option>Max Price</option>
+                        </select>
+                    </span>
+                	<em>
+                    	<select>
+                        	<option>Posted by</option>
+                        </select>
+                    </em>                </li>
+            </ul>
+            <i class="clear"></i>
+            <input type="button" class="serch_btn" value="Search" />
+            </form>
+			</div>
+			<div id="resale" class="tab-pane"><!-- resale search -->
+            <form>
+            <ul class="serchflid">
+            	<li>
+                	<span><input type="text" value="Enter your keyword / Project ID" class="search_fld" /></span>
+                	<em>I want To : <input type="radio" /> Buy	 <input type="radio" />Rent	</em>
+                    <i class="clear"></i>                </li>
+                <li>
+                	<span>
+                    	<select>
+                        	<option>Select Land / Apartment / etc</option>
+                            <option>--</option>
+                        </select>
+                    </span>
+                	<em>
+                    	<select>
+                        	<option>2BHK/ 3BHK/ (2000sq/ 3000sq)</option>
+                        </select>
+                    </em>                </li>
+                <li>
+                	<span>
+                    	<select>
+                        	<option>Select Your City</option>
+                        </select>
+                    </span>
+                	<em>
+                    	<select>
+                        	<option>Select Locality  As Per City</option>
+                        </select>
+                    </em>                </li>
+                 <li>
+                	<span class="mx_min">
+                    	<select class="fl_lft">
+                        	<option>Min Price</option> 
+                        </select>
+                        <b class="padd_5">To</b>
+                        <select class="fl_rht">
+                        	<option>Max Price</option>
+                        </select>
+                    </span>
+                	<em>
+                    	<select>
+                        	<option>Posted by</option>
+                        </select>
+                    </em>                </li>
+            </ul>
+            <i class="clear"></i>
+            <input type="button" class="serch_btn" value="Search" />
+            </form>
+			</div>
+			</div>
+            <i class="clear"></i>
+            <div class="othercity">
+			<div class="fl_lft">
+            	<b>Other City :</b> <span><a href="#">Bhubaneswar</a></span> | <span><a href="#">Cuttack</a></span> | 
+                <span><a href="#">Puri</a></span> | <span><a href="#">Balasore</a></span> | 
+				<span><a href="#">Jharsuguda</a></span>
+			</div>
+                <span class="morecity"><a href=""><u>more</u><em> &raquo;</em></a></span>   
+				<i class="clear"></i>				
+			</div>
+        </div>
+    	<div class="searchbanner col-lg-5">
+        	<!--img src="images/baner_img.jpg" /-->
+			<div class="slider">
+			<div class="slideshow slideshow-1">
+				<div class="slide-1"><img src="images/banner-slide1.jpg"  height="403" alt=" " /></div>
+				<div class="slide-2"><img src="images/banner-slide2.jpg"  height="403" alt=" " /></div>
+				<div class="slide-3"><img src="images/banner-slide3.jpg"  height="403" alt=" " /></div>
+			</div>
+			<div class="slideshow slideshow-2">
+				<div class="slide-1">
+					<div class="container">
+						<div class="slide-cont">
+							<h3>Project Name</h3>
+							<h2>Patia</h2>
+						</div>
+					</div>
+				</div>
+				<div class="slide-2">
+					<div class="container">
+						<div class="slide-cont">
+							<h3>Project Name2</h3>
+							<h2>Puri</h2>
+						</div>
+					</div>
+				</div>
+				<div class="slide-3">
+					<div class="container">
+						<div class="slide-cont">
+							<h3>Project Name3</h3>
+							<h2>Cuttack</h2>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div id="pagin-cont">
+				<ul id="pagination">
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</div>
+        </div>
+		<div class="banner_768 col-lg-5">
+			<img src="images/banner-slide1.jpg"  height="403" alt=" " />
+		</div>
+    </div>
+	
+	<!-- search end -->
+    <i class="clear"></i>
+    <div class="add1">
+    	<img src="images/long-add.jpg" />    </div>
+    <i class="clear"></i>
+    <div>
+    <aside class="leftpanel">
+    	<article class="resaleprop">
+        <h1>Resale Property</h1>
+        <div>
+        <ul>
+        	<li>
+            	<em>2/3 BHK Residential Apartments</em>
+				<span>Patia,Bhubaneswar, Orissa</span>            </li>
+            <li>
+            	<em>2/3 BHK Residential Apartments</em>
+				<span>Patia,Bhubaneswar, Orissa</span>            </li>
+            <li>
+            	<em>2/3 BHK Residential Apartments</em>
+				<span>Patia,Bhubaneswar, Orissa</span>            </li>
+            <li>
+            	<em>2/3 BHK Residential Apartments</em>
+				<span>Patia,Bhubaneswar, Orissa</span>            </li>
+            <li>
+            	<em>2/3 BHK Residential Apartments</em>
+				<span>Patia,Bhubaneswar, Orissa</span>            </li>
+            <li>
+            	<em>2/3 BHK Residential Apartments</em>
+				<span>Patia,Bhubaneswar, Orissa</span>            </li>
+             <li>
+            	<em>2/3 BHK Residential Apartments</em>
+				<span>Patia,Bhubaneswar, Orissa</span>            </li>
+            <li>
+            	<em>2/3 BHK Residential Apartments</em>
+				<span>Patia,Bhubaneswar, Orissa</span>            </li>
+        </ul>
+        	<span class="more"><a href="">more</a><i></i></span>
+            <i class="clear"></i>           </div>
+        </article>
+    </aside>
+    <article class="middlecontent">
+    	<h4>Feature Project</h4>
+    	<div class="tabs">
+        	<ul class="feature_tabs">
+            	<li class="active"><a href="#feature_apartment">Apartment</a></li>
+                <li><a href="#feature_comercial">Comercial</a></li>
+                <li><a href="#feature_land">Land</a></li>
+            </ul>
+        </div>
+        <i class="clear"></i>
+        <section class="feature_content tab-content">
+			<div id="feature_apartment" class="tab-pane active">
+            	<ul>
+                	<li>
+                    	<span>
+                        	<img src="images/f-project1.jpg" />                        </span>
+                        <p>
+                        	<span>Code: OP220121511</span><br/>
+							<b>2/3 BHK Residential Apartments <br/> Aparna Hill Park Avenues</b><br/>
+							   Patia,Bhubaneswar, Orissa<br/>
+							   Price Starting @ Rs. <i>2649/- per sq. ft. </i><br/>
+     						   <em>0674 - 3011624</em>                        </p>
+                        <i class="clear"></i>                    </li>
+                    <li>
+                    	<span>
+                        	<img src="images/f-project1.jpg" />                        </span>
+                        <p>
+                        	<span>Code: OP220121511</span><br/>
+							<b>2/3 BHK Residential Apartments <br/> Aparna Hill Park Avenues</b><br/>
+							   Patia,Bhubaneswar, Orissa<br/>
+							   Price Starting @ Rs. <i>2649/- per sq. ft. </i><br/>
+     						   <em>0674 - 3011624</em>                        </p>
+                        <i class="clear"></i>                    </li>
+                    <li>
+                    	<span>
+                        	<img src="images/f-project1.jpg" />                        </span>
+                        <p>
+                        	<span>Code: OP220121511</span><br/>
+							<b>2/3 BHK Residential Apartments <br/> Aparna Hill Park Avenues</b><br/>
+							   Patia,Bhubaneswar, Orissa<br/>
+							   Price Starting @ Rs. <i>2649/- per sq. ft. </i><br/>
+     						   <em>0674 - 3011624</em>                        </p>
+                        <i class="clear"></i>                    </li>
+                </ul>
+                <span class="more"><a>more<i></i></a></span>			</div>
+			<div id="feature_comercial" class="tab-pane">
+            	<ul>
+                	<li>
+                    	<span>
+                        	<img src="images/f-project-com.jpg" />                        </span>
+                        <p>
+                        	<span>Code: OP220121511</span><br/>
+							<b>2/3 BHK Residential Apartments <br/> Aparna Hill Park Avenues</b><br/>
+							   Patia,Bhubaneswar, Orissa<br/>
+							   Price Starting @ Rs. <i>2649/- per sq. ft. </i><br/>
+     						   <em>0674 - 3011624</em>                        </p>
+                        <i class="clear"></i>                    </li>
+                    <li>
+                    	<span>
+                        	<img src="images/f-project-com.jpg" />                        </span>
+                        <p>
+                        	<span>Code: OP220121511</span><br/>
+							<b>2/3 BHK Residential Apartments <br/> Aparna Hill Park Avenues</b><br/>
+							   Patia,Bhubaneswar, Orissa<br/>
+							   Price Starting @ Rs. <i>2649/- per sq. ft. </i><br/>
+     						   <em>0674 - 3011624</em>                        </p>
+                        <i class="clear"></i>                    </li>
+                    <li>
+                    	<span>
+                        	<img src="images/f-project-com.jpg" />                        </span>
+                        <p>
+                        	<span>Code: OP220121511</span><br/>
+							<b>2/3 BHK Residential Apartments <br/> Aparna Hill Park Avenues</b><br/>
+							   Patia,Bhubaneswar, Orissa<br/>
+							   Price Starting @ Rs. <i>2649/- per sq. ft. </i><br/>
+     						   <em>0674 - 3011624</em>                        </p>
+                        <i class="clear"></i>                    </li>
+                </ul>
+                <span class="more"><a>more<i></i></a></span>			</div>
+			<div id="feature_land" class="tab-pane">
+            	<ul>
+                	<li>
+                    	<span>
+                        	<img src="images/f-project-land.jpg" />                        </span>
+                        <p>
+                        	<span>Code: OP220121511</span><br/>
+							<b>2/3 BHK Residential Apartments <br/> Aparna Hill Park Avenues</b><br/>
+							   Patia,Bhubaneswar, Orissa<br/>
+							   Price Starting @ Rs. <i>2649/- per sq. ft. </i><br/>
+     						   <em>0674 - 3011624</em>                        </p>
+                        <i class="clear"></i>                    </li>
+                    <li>
+                    	<span>
+                        	<img src="images/f-project-land.jpg" />                        </span>
+                        <p>
+                        	<span>Code: OP220121511</span><br/>
+							<b>2/3 BHK Residential Apartments <br/> Aparna Hill Park Avenues</b><br/>
+							   Patia,Bhubaneswar, Orissa<br/>
+							   Price Starting @ Rs. <i>2649/- per sq. ft. </i><br/>
+     						   <em>0674 - 3011624</em>                        </p>
+                        <i class="clear"></i>                    </li>
+                    <li>
+                    	<span>
+                        	<img src="images/f-project-land.jpg" />                        </span>
+                        <p>
+                        	<span>Code: OP220121511</span><br/>
+							<b>2/3 BHK Residential Apartments <br/> Aparna Hill Park Avenues</b><br/>
+							   Patia,Bhubaneswar, Orissa<br/>
+							   Price Starting @ Rs. <i>2649/- per sq. ft. </i><br/>
+     						   <em>0674 - 3011624</em>                        </p>
+                        <i class="clear"></i>                    </li>
+                </ul>
+                <span class="more"><a>more<i></i></a></span>			</div>
+        </section>
+    </article>
+    <aside class="rightpanel">
+    	<article class="propgallery">
+        	<h1>Property Gallery</h1>
+            <ul>
+            	<li>
+                	<img src="images/prp_gall_img.jpg"/>
+                	<span>Janapriya Nile Valley</span><b>Hyderabad</b>                </li>
+                <li>
+                	<img src="images/prp_gall_img.jpg"/>
+                	<span>Janapriya Nile Valley</span><b>Hyderabad</b>                </li>
+                <li>
+                	<img src="images/prp_gall_img.jpg"/>
+                	<span>Janapriya Nile Valley</span><b>Hyderabad</b>                </li>
+                <li>
+                	<img src="images/prp_gall_img.jpg"/>
+                	<span>Janapriya Nile Valley</span><b>Hyderabad</b>                </li>
+            </ul>
+        </article>
+    </aside>
+    <i class="clear"></i>
+	<!-- commiercial Property -->
+    <aside class="leftpanel">
+    	<article class="now-add">
+        	<img src="images/now-save-requirment.jpg" />        </article>
+        <article class="bestsealer">
+        	<h2>Best Saler <i></i></h2>
+            <ul>
+            	<li>
+                	<img src="images/best-saler.jpg" />
+                    <i>Buy 2/3 BHK Apts. Sector 12, BBSR</i>                </li>
+                <li>
+                	<img src="images/best-saler.jpg" />
+                    <i>Buy 2/3 BHK Apts. Sector 12, BBSR</i>                </li>
+            </ul>
+        </article>
+    </aside>
+    <article class="middlecontent">
+    	<h5>Commercial Property</h5>
+    	<section class="comercial_property">
+        	<ul>
+            	<li class="open_list">
+				<div class="list_content">
+					<b>+</b><span>Office Space for sale in Andheri East, Mumbai.</span> (OP2212175) <i>Rs. 85 lakhs</i><em>2500Sq</em>				</div>
+                	<div class="show_list_cntent">
+                    	<b>Office Space for sale in Andheri East, Mumbai</b>
+                		<img src="images/com_pro_thumb.jpg" />
+                        <p>
+                        	<u>Code: OP220121511</u><br/>
+							Patia,Bhubaneswar, Orissa<br/> 
+							Price Starting @ <span> Rs. 2649/- per sq. ft.</span><br/>
+      						<em>0674-3011624</em>                        </p>
+                    <i class="clear"></i>                   </div>
+                </li>
+                <li class="close_list">
+                	<div class="list_content"><b>+</b><span>Office Space for sale in Andheri East, Mumbai.</span> (OP2212175) <i>Rs. 85 lakhs</i><em>2500Sq</em></div>
+					<div class="show_list_cntent">
+                    	<b>Office Space for sale in Andheri East, Mumbai</b>
+                		<img src="images/com_pro_thumb.jpg" />
+                        <p>
+                        	<u>Code: OP220121511</u><br/>
+							Patia,Bhubaneswar, Orissa<br/> 
+							Price Starting @ <span> Rs. 2649/- per sq. ft.</span><br/>
+      						<em>0674-3011624</em>                        </p>
+                    <i class="clear"></i>                   </div>
+                </li>
+                 <li class="close_list">
+                	<div class="list_content"><b>+</b><span>Office Space for sale in Andheri East, Mumbai.</span> (OP2212175) <i>Rs. 85 lakhs</i><em>2500Sq</em></div>
+					<div class="show_list_cntent">
+                    	<b>Office Space for sale in Andheri East, Mumbai</b>
+                		<img src="images/com_pro_thumb.jpg" />
+                        <p>
+                        	<u>Code: OP220121511</u><br/>
+							Patia,Bhubaneswar, Orissa<br/> 
+							Price Starting @ <span> Rs. 2649/- per sq. ft.</span><br/>
+      						<em>0674-3011624</em>                        </p>
+                    <i class="clear"></i>                   </div>
+                </li>
+                 <li class="close_list">
+                	<div class="list_content"><b>+</b><span>Office Space for sale in Andheri East, Mumbai.</span> (OP2212175) <i>Rs. 85 lakhs</i><em>2500Sq</em></div>
+					<div class="show_list_cntent">
+                    	<b>Office Space for sale in Andheri East, Mumbai</b>
+                		<img src="images/com_pro_thumb.jpg" />
+                        <p>
+                        	<u>Code: OP220121511</u><br/>
+							Patia,Bhubaneswar, Orissa<br/> 
+							Price Starting @ <span> Rs. 2649/- per sq. ft.</span><br/>
+      						<em>0674-3011624</em>                        </p>
+                    <i class="clear"></i>                   </div>
+                </li>
+                 <li class="close_list">
+                	<div class="list_content"><b>+</b><span>Office Space for sale in Andheri East, Mumbai.</span> (OP2212175) <i>Rs. 85 lakhs</i><em>2500Sq</em></div>
+					<div class="show_list_cntent">
+                    	<b>Office Space for sale in Andheri East, Mumbai</b>
+                		<img src="images/com_pro_thumb.jpg" />
+                        <p>
+                        	<u>Code: OP220121511</u><br/>
+							Patia,Bhubaneswar, Orissa<br/> 
+							Price Starting @ <span> Rs. 2649/- per sq. ft.</span><br/>
+      						<em>0674-3011624</em>                        </p>
+                    <i class="clear"></i>                   </div>
+                </li>
+            </ul>
+			<span class="more"><a href="">more</a><i></i></span>        </section>
+    </article>
+    <aside class="rightpanel">
+    	<article class="post-requirment">
+        	<img src="images/post-requirment.jpg" />        </article>
+         <article class="property_ancillary">
+        	<h2>Property Ancillary<i></i></h2>
+            <ul>
+            	<li> Builder &amp; contractors</li>
+				<li> Decorative &amp; Materials</li>
+				<li> Engineers &amp; Architects</li>
+                <li> Pest Control</li>
+				<li> Painting Staining</li>
+				<li> Housing Loan</li>
+				<li> Furniture</li>
+            </ul>
+        </article>
+         <div class="subscribe">
+            	<input type="text" value="Subscribe Newsletter " name="news_emailer" />
+                <input type="submit" value="Submit" />
+            </div>
+    </aside>
+	<!-- commiercial Property -->
+	<i class="clear"></i>
+	<div class="add2">
+		<img src="images/rarity-add.jpg" class="fl_lft" />
+        <img src="images/icici-add.jpg" class="fl_rht" />
+        <i class="clear"></i>	</div>
+	<i class="clear"></i>
+	<article class="builder_gallery">
+    	<h2>Builder <br/>Gallery</h2><b></b>
+    	<span><img src="images/builder-bricks1.jpg" /></span>
+        <span><img src="images/builder-logo.jpg" /></span>
+        <span><img src="images/builder-logo1.jpg" /></span>	</article>
+	<aside class="event_add">
+    EVENT Banner	</aside>
+    <i class="clear"></i>
+    	<article class="other_content">
+        	<ul class="tabs">
+            	<li class="active"><a href="#">Proerty  Advice</a></li>				  
+                <li><a href="#">Property Validate</a></li>
+                <li><a href="#">Realestate</a></li>
+            </ul>
+            <i class="clear"></i>
+            <div class="tab_content">            </div>
+    	</article>
+        <aside class="add3">
+        	<img src="images/add-3.jpg" />        </aside>
+    </div>
+</div>
+<footer class="footer">
+    	<div class="othercity">
+        	<div class="fl_lft"><b>Search By City :</b> <span><a href="#">Bhubaneswar</a></span> | 
+			<span><a href="#">Cuttack</a></span> | 
+            <span><a href="#">Puri</a></span> | <span><a href="#">Balasore</a></span> | 
+			<span><a href="#">Jharsuguda</a></span>
+			</div>
+            <span class="morecity"><a href=""> <u>more</u> <em> &raquo;</em></a></span>      
+			<i class="clear"></i>
+		</div>
+        <article>
+        	<ul>
+            	<li>
+                	<b>Real Estate In Orissa</b>
+                    	<ol>
+                    		<li>Bhubaneswar Property</li>
+							<li>Cutack Property</li>
+							<li>Puri Property</li>
+							<li>Paradeep Property</li>
+							<li>Property In Other Cites</li>
+                        </ol>
+                </li>
+                <li><b>Our Services</b>
+                	<ol>
+                    	<li>List Property</li>
+						<li>Post Requirement</li>
+						<li>Advertise with Us</li>
+						<li>Search Property</li>
+						<li>EMI Calculator</li>
+                     </ol>
+                </li>
+                <li><b>Privacy &nbsp; You</b>
+                	<ol>
+                		<li>Privacy Policy</li>
+						<li>Terms &amp; Conditions</li>
+                    </ol><div class="show_list_cntent">
+                    	<b>Office Space for sale in Andheri East, Mumbai</b>
+                		<img src="images/com_pro_thumb.jpg" />
+                        <p>
+                        	<u>Code: OP220121511</u><br/>
+							Patia,Bhubaneswar, Orissa<br/> 
+							Price Starting @ <span> Rs. 2649/- per sq. ft.</span><br/>
+      						<em>0674-3011624</em>                        </p>
+                    <i class="clear"></i>
+                   </div>
+                </li>
+                <li><b>Company</b>
+                	<ol>
+                    	<li>About Us</li>
+						<li>Contact Us</li>
+						<li>Site Map</li>
+						<li>Buyer’s Guide</li>
+						<li>Disclaimer</li>
+                    </ol>
+                </li>
+                <li><b>Others</b>
+                	<ol>
+                		<li>Orimark Jobs</li>
+						<li>Orimark Technologies</li>
+						<li>Orimark Money</li>
+                     </ol>
+                </li>
+            </ul>
+            <i class="clear"></i>        
+		</article>
+        <p>Orimarkproperties.com is an online real-estate service committed to helping you make wise and profitable decisions related to buying, selling, renting and leasing of properties, in India and key global geographies. Orimarkproperties.com will provide a fresh new approach to our esteemed users to search for properties to buy or rent, and list their properties for selling or leasing.</p>
+        <i class="clear"></i>
+        <div class="copyright">All Rights Reserved. @ Copyright 2010 orimarkproperties.com</div>
+    </footer>
+</div>
+	<script src="js/bootstrap/bootstrap-dropdown.js"></script>
+	<script src="js/bootstrap/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap/holder.js"></script>
+	<script src="js/bootstrap/bootstrap-modal.js"></script>
+	<script src="js/bootstrap/bootstrap-tab.js"></script>
+	<script src="js/jquery.easing.1.3.js"> </script>
+	<script src="js/jquery.cycle.all.2.72.js"> </script>
+	<script type='text/javascript'>
+    $(document).ready(function() {
+			$('.dropdown-toggle').dropdown(); 
+			$('.navbar-toggle').collapse();
+			$('.sign').click(function(){
+				$('.signin').slideToggle()
+			})
+			
+			/*$('.comercial_property ul li').each(function(index, elem) {
+				$(this).click(function() {
+					$(this).toggleClass( "open_list" );
+					$(this).toggleClass( "close_list" );
+					//$('.list_content').slideToggle();
+					$(this).find(".list_content").slideToggle();
+					$(this).find(".show_list_cntent").slideToggle();
+				});
+			});*/
+			$('.show_list_cntent').hide();	
+			$('.list_content').click(function(){
+			$(this).parent().find('.show_list_cntent').fadeToggle(0).parent('li').sibling().find('.show_list_cntent').hide();
+			
+			});
+			$('.search_tab a').click(function (e) {
+				e.preventDefault()
+				$(this).tab('show')
+			})
+			
+			$('.feature_tabs a').click(function (e) {
+				e.preventDefault()
+				$(this).tab('show')
+			})
+			
+			$('.slideshow').cycle({
+				timeout: 7000,
+				speed: 2500,		
+				fx: 'scrollHorz',
+				easing: 'easeInOutCubic',
+				cleartype: false, 
+				cleartypeNoBg: true,
+				pager: '#pagination',
+					pagerAnchorBuilder: function(idx, slide) { 
+					return '#pagination li:eq(' + idx + ') a'; 
+				}
+			});
+			
+	});
+ </script>
+
+</body>
+</html>
